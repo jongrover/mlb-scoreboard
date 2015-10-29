@@ -1,14 +1,42 @@
 .container {
   width:80%;
-  position: relative;
-  padding:20px;
+  position:absolute;
+  left:0;
+  right:0;
+  padding:5px;
   background: -webkit-linear-gradient(#CC0000, #A00000); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#CC0000, #A00000); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#CC0000, #A00000); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#CC0000, #A00000); /* Standard syntax */
   margin: 0 auto;
   font-family: 'Open Sans',  sans-serif;
+  color: #272822;
 }
 
+.box-score {
+  display:inline-block;
+  position:relative;
+  background-color: #FFFFFF;
+  float:left;
+  text-align:center;
+  width:23.2%;
+  padding:5px;
+  margin:5px;
+}
 
+ .team {
+  background-color: #E2E2E2;
+  padding-top:2px;
+  padding-bottom:2px;
+}
 
+.score {
+  font-family:‘Open Sans’, Arial, serif; 
+  font-weight:700;
+  padding-top:5px;
+}
+
+h3 {
+  padding:0px;
+  margin:0px;
+} 
